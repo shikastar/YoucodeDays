@@ -12,6 +12,7 @@ List *createNewNode(int value) {
     List *newNode = malloc(sizeof(List));
     newNode->val = value;
     newNode->next = NULL;
+    return newNode;
 }
 
 void    printList(List *head) {
